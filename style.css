@@ -1,8 +1,14 @@
 header{
     background-image: url('image/sepatu-1-bg.jpg');
     padding-bottom: 30%;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
-
+.quotes{
+    padding: 20%;
+    margin-top: 70%;
+    margin-left: 50%;
+}
 .navi{
     display: flex;
     margin-top: 35px;
@@ -37,6 +43,19 @@ header{
 .dropdown-menu li:hover a{
    color:orangered;
 }
-.quotes{
-    padding: 20%;
+
+.page-1{
+    display: flex;
+    background-image: url('image/logo-shoe.png');
+    background-size: 5%;
+
 }
+.page-1 .img-but{
+
+    margin: 20px 20px 20px 60px;
+}
+
+.page-1 .img-but img{
+    width: 80%;
+}
+
