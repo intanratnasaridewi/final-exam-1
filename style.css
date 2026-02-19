@@ -1,13 +1,15 @@
 header{
     background-image: url('image/sepatu-1-bg.jpg');
-    padding-bottom: 30%;
+    padding-bottom: 40%;
     background-size: 70%;
-    background-repeat: no-repeat;
 }
-.quotes{
+.qoutes{
     padding: 20%;
-    margin-top: 70%;
-    margin-left: 50%;
+    /* margin-top: 70%;
+    margin-left: 50%; */
+    position: absolute;
+    top: 30%;
+    left: 25%;
 }
 .navi{
     display: flex;
@@ -68,3 +70,42 @@ header{
     margin-left: 30%;
 
 }
+
+.page-2, .page-3{
+    margin-top: 20px;
+    display: flex;
+    background-color: darkgray;
+}
+.page-2 img, .page-3 img, .page-4 img{
+    width: 30%;
+    margin: 20px 5%;
+}
+
+.page-4{
+    display:flex;
+    margin: 20px 100px;
+    background-color: rgb(46, 33, 33);
+}
+
+.page-4 .teks{
+    color: white;
+}
+
+footer{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    background-image: url("image/logo-shoe.png");
+    background-repeat: repeat-y;
+    background-size: 5%;
+}
+
+footer .list-1{
+    margin: 20px 100px;
+}
+
+
+/* }
+.page-3{
+    display: flex;
+} */
