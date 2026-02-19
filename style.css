@@ -53,9 +53,18 @@ header{
 .page-1 .img-but{
 
     margin: 20px 20px 20px 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .page-1 .img-but img{
     width: 80%;
 }
 
+.page-1 .img-but button{
+    width: 20%;
+    padding: 10px 15px ;
+    margin-top: 20px;
+    margin-left: 30%;
+
+}
